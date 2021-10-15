@@ -40,7 +40,7 @@ The existing property-based tests verify that we, for generated pet owners, and 
 
 This leads us to third and final task on the list, namely 
 
-**3) verify that we can insert a generated and all of their generated pets correctly**
+**3) verify that we can insert a generated owner and all of their generated pets correctly**
    
 The library `test/utils/pets_generators.dart` already contains some of the necessary generators for the task, but you will need to implement the remaining generator stubs to be able to complete this task.
 
