@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 
-// IDs 
+// IDs
 typedef OwnerId = String;
 typedef PetId = String;
 typedef ProcessId = String;
@@ -15,7 +15,6 @@ typedef TrialFileId = String;
 typedef ImageId = String;
 typedef OptionId = String;
 
-
 typedef JsonMap = Map<String, dynamic>;
 typedef Language = String;
 typedef StringMap = Map<Language, String>;
@@ -25,4 +24,3 @@ typedef StringOption = Option<String>;
 typedef DateTimeOption = Option<DateTime>;
 typedef IntOption = Option<int>;
 typedef BoolOption = Option<bool>;
-

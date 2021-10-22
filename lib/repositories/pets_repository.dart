@@ -54,7 +54,7 @@ LazyDatabase _openConnection(String database) {
 
     final file = io.File(p.join(dbFolder.path, database));
 
-    return VmDatabase(file, setup: (rawDb){
+    return VmDatabase(file, setup: (rawDb) {
       rawDb.execute("PRAGMA foreign_keys = ON;");
     });
   });
