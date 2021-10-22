@@ -69,13 +69,3 @@ extension AnyPet on Any {
 
   /// Generator<Pet> get pet => null as Generator<Pet>;
 }
-
-extension GeneratorBind<T> on Generator<T> {
-  Generator<R> bind<R>(Generator<R> Function(T value) mapper) =>
-      (random, size) => map(mapper)(random, size).value(random, size);
-}
-
-extension MoreUtils on Any {
-  Generator<T> oneOf<T>(List<Generator<T>> generators) =>
-      choose(generators).bind((value) => value);
-}

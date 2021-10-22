@@ -35,7 +35,7 @@ dependencies:
   injector:
   http:
   tuple:
-  json_annotation: ^4.1.0
+  json_annotation: ^4.3.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -47,43 +47,11 @@ dev_dependencies:
   freezed:
   moor_generator: ^4.5.1
   build_runner: ^2.0.0
-  json_serializable: ^5.0.2
+  json_serializable: ^6.0.0
   test:
   mime:
   glados:
-    git:
-      url: "https://github.com/t1ooo/glados.git"
-      ref: "e7ff045c0f73f401dc0fe5902f7e21c7641370da"
-      path: glados
   lints: ^1.0.1
-
-dependency_overrides:
-  moor_generator:
-    git:
-      url: "https://github.com/simolus3/moor.git"
-      ref: "cc7d98d110204acb72d415312a78ed7821382d69"
-      path: moor_generator
-  sqlparser:
-    git:
-      url: "https://github.com/simolus3/moor.git"
-      ref: "cc7d98d110204acb72d415312a78ed7821382d69"
-      path: sqlparser
-  json_annotation:
-    git:
-      url: "https://github.com/google/json_serializable.git"
-      ref: "3a0cc4317883b2c45b87e8630d20ffb626cab5d0"
-      path: json_annotation
-  json_serializable:
-    git:
-      url: "https://github.com/google/json_serializable.git"
-      ref: "3a0cc4317883b2c45b87e8630d20ffb626cab5d0"
-      path: json_serializable
-
-  freezed:
-    git:
-      url: "https://github.com/samandmoore/freezed.git"
-      ref: "bdbf82360e440fd9b62e32eecec671963e29d58f"
-      path: packages/freezed
 
 analyzer:
   exclude:
