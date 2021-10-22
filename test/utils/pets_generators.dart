@@ -63,9 +63,9 @@ extension AnyPet on Any {
           age,
           InnerPet.cat()));
 
-  /// Generator<Pet> get dog => null as Generator<Pet>;
+  /// Generator<Pet> dog => null as Generator<Pet>;
 
-  /// Generator<Pet> get snake => null as Generator<Pet>;
+  /// Generator<Pet> snake => null as Generator<Pet>;
 
-  /// Generator<Pet> get pet => null as Generator<Pet>;
+  /// Generator<Pet> pet => null as Generator<Pet>;
 }
